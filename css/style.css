@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    color: #CFB38A;
+    font-size: 20pt;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-links a:hover{
+    color:#CFB38A;
+}
+
+#nav-sm {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sm-links {
+    color: #CFB38A;
+}
+
+header {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
