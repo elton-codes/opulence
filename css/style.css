@@ -63,7 +63,7 @@ header {
 #hero-text {
     text-align: center;
     color: white;
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 
 #hero-text h3 {
@@ -94,5 +94,50 @@ header {
 }
 
 #hero-btn:hover {
-    background-color: #ffdb4d;
+    background-color: #27220e;
+}
+
+
+#rooms-icon img{
+    display: block;
+    width: 60px;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rooms-text {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rooms-text h2 {
+    font-size: 30px;
+}
+
+#rooms-text p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.room-prices {
+    width: 85%;
+}
+.room-prices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.room-images {
+    flex: 1;
+    margin: 10px;
+}
+
+.room-images img {
+    max-width: 100%;
+    height: auto;
 }
