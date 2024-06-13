@@ -50,6 +50,10 @@ nav {
     list-style: none;
 }
 
+#nav-sm a:hover {
+    color: white;
+}
+
 .sm-links {
     color: #CFB38A;
 }
@@ -101,7 +105,7 @@ header {
 #rooms-icon img{
     display: block;
     width: 60px;
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,3 +145,81 @@ header {
     max-width: 100%;
     height: auto;
 }
+
+.room-images h3 {
+    text-transform: uppercase;
+    color: #C7A676;
+    /* color: #1E1E1E; */
+    font-size: 15px;
+}
+
+.prices-btn {
+    border-style: none;
+    background-color: #C7A676;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+}
+
+.prices-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.facility-icon img{
+    padding-top: 20px;
+}
+
+#facilities {
+    margin-top: -20px;
+    background: #1e1e1e;
+    color: #fff;
+}
+.facilities-text {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.facilities-text h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+/* .facilities-text p {
+    font-size: 15px;
+    margin-bottom: 100px;
+} */
+
+.facilities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.facility-item {
+    background: #333;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 125px;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+
+ .manager {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* padding: 20px; */
+    background-color: #fff;
+}
+
+.manager-text {
+    max-width: 50%;
+}
+
+flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
