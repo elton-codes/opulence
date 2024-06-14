@@ -36,7 +36,6 @@ nav {
 #nav-links a {
     text-decoration: none;
     color: white;
-    /* text-transform: uppercase; */
 }
 
 #nav-links a:hover{
@@ -76,6 +75,7 @@ header {
 
 #hero-text h1 {
     font-size: 50px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 .star {
@@ -247,5 +247,184 @@ header {
 }
 
 .manager-image h5 {
-    color: rgba(0, 0, 0, 0.712);
+    color: rgba(0, 0, 0, 0.938);
+}
+
+.amenities {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.amenities-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    color: #27220e;
+}
+
+
+.facility {
+    display: flex;
+    width: 100%;
+}
+
+.facility-image img {
+    max-width: 100%;
+    /* height: auto; */
+}
+
+.facility-image {
+    width: 50%;
+}
+
+.facility-info {
+    margin-left: 10rem;
+    width: 50%;
+}
+
+.facility-info h4 {
+    color: #C7A676;
+    font-size: 20px;
+}
+
+.facility-info h2 {
+    font-size: 35px;
+}
+
+.facility-info p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.facility2 {
+    display: flex;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.facility-image2 img {
+    width: 100%;
+    /* height: auto; */
+}
+
+.facility-image2 {
+    width: 50%;
+}
+.facility-info2 {
+margin-right: 10rem;
+width: 50%;
+}
+
+.facility-info2 h4 {
+    color: #C7A676;
+    font-size: 20px;
+}
+
+.facility-info2 h2 {
+    font-size: 35px;
+}
+
+.facility-info2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.facility3 {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.facility-image3 img {
+    max-width: 100%;
+    /* height: auto; */
+}
+
+.facility-image3 {
+    width: 50%;
+}
+
+.facility-info3 {
+    margin-left: 10rem;
+    width: 50%;
+}
+
+.facility-info3 h4 {
+    color: #C7A676;
+    font-size: 20px;
+}
+
+.facility-info3 h2 {
+    font-size: 35px;
+}
+
+.facility-info3 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    font-size: 14px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover, .footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section .social a {
+    display: inline-block;
+    margin: 0 10px;
+    list-style: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #1e1e1e;
+    background: #C7A676;
+    padding-top: 20px;
 }
